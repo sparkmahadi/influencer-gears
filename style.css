@@ -14,6 +14,10 @@ header{
     display: flex;
     justify-content: space-between
 }
+.header-bar-mobile{
+    display: none;
+}
+
 header h3{
     text-align: left;
 }
@@ -61,12 +65,84 @@ header h3{
     padding: 15px;
 }
 
+/* second section styles-------------------------------- */
+.second-section{
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 100px 200px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
 
+/* main section style---------------------------- */
+.main-title{
+    text-align: center;
+}
+.section-title{
+    font-size: 25px;
+}
+.blog{
+    padding: 13px 12px;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.blog h3{
+    font-size: 22px;
+    margin: 5px 0px;
+}
+.blog h4{
+    display: inline-block;
+    font-weight: 100;
+    margin: 5px 0px;
+}
+.blog p{
+    font-size: small;
+    margin: 5px 0px;
+    width: max-content;
+}
+
+.blog-rating{
+    display: flex;
+    width: max-content;
+    margin: 0;
+}
+.blog-rating div{
+    display: inline-block;
+}
+.stars{
+    margin-right: 20px;
+}
+.rate-number{
+    margin-right: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-row-gap: 45px;
+}
+.blogs-parent{
+    margin: 0 auto;
+}
+.blogs{
+    margin: 0 auto;
+}
+main{
+    margin: 50px 120px 50px 120px;
+}
 /* media styles----------------- */
 /* mobile devices------------------------------------------ */
 @media screen and (max-width:425px) {
     .header-bar{
         display: none;
+    }
+    .header-bar-mobile{
+        display: flex;
+        justify-content: space-between;
     }
         .top-section{
         flex-direction: column-reverse;
@@ -86,5 +162,19 @@ header h3{
     }
     .text p{
         padding: 0;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        grid-row-gap: 45px;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
     }
 }
