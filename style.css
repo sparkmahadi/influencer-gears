@@ -24,7 +24,7 @@ header h3{
 .header-right{
     display: flex;
 }
-.header-right h3{
+.header-right h4{
     margin-right: 20px;
     margin-right: 20px;
 }
@@ -133,6 +133,15 @@ header h3{
 }
 main{
     margin: 50px 120px 50px 120px;
+}
+.see-more{
+    display: block;
+    text-align: right;
+}
+.third-section{
+    display: flex;
+    margin: 50px 140px 50px 140px;
+    gap: 60px;
 }
 /* media styles----------------- */
 /* mobile devices------------------------------------------ */
