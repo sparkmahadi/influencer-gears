@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #AAAAAA;
+    background-color: #dfd9d9;
 }
 
 /* -------------------------header style----------------------------- */
@@ -134,14 +134,37 @@ header h3{
 main{
     margin: 50px 120px 50px 120px;
 }
+.main-bottom{
+    display: flex;
+    justify-content: right;
+    margin-right: 150px;
+    margin-top: 20px;
+    color: red;
+}
 .see-more{
-    display: block;
-    text-align: right;
+    color: red;
+    margin-right: 5px;
+    text-decoration: none;
 }
 .third-section{
     display: flex;
     margin: 50px 140px 50px 140px;
     gap: 60px;
+}
+.join-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    margin-right: 250px;
+    padding: 10px 0px;
+    width: 20%;
+}
+.join-button a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
 }
 /* media styles----------------- */
 /* mobile devices------------------------------------------ */
