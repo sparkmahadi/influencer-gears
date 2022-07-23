@@ -166,6 +166,18 @@ main{
     color: white;
     margin-right: 10px;
 }
+footer{
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 20px;
+}
 /* media styles----------------- */
 /* mobile devices------------------------------------------ */
 @media screen and (max-width:425px) {
